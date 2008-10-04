@@ -1,0 +1,7 @@
+
+ruby-glfw
+=========
+
+This ruby library provides a wrapper around [glfw][].  Unlike similar interfaces, this library uses Ruby/DL dynamic loading, thus avoid the need for compilation.
+
+[glfw]: http://glfw.sourceforge.net
