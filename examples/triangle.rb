@@ -10,7 +10,7 @@ include Gl
 
 glfwInit
 glfwOpenWindow(640, 480)
-glfwSetWindowTitle 'ruby-glfw'
+glfwSetWindowTitle 'rubydl-glfw'
 
 frames = 0
 t0 = glfwGetTime
@@ -22,7 +22,7 @@ loop do
 
   if (t-t0) > 1.0 || frames == 0
     fps = frames.to_f / (t-t0)
-    glfwSetWindowTitle("ruby-glfw: spinning triangle (%0.1f fps)" % fps)
+    glfwSetWindowTitle("rubydl-glfw: spinning triangle (%0.1f fps)" % fps)
     t0 = t
     frames = 0
   end

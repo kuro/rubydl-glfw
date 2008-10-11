@@ -1,5 +1,5 @@
 
-ruby-glfw
+rubydl-glfw
 =========
 
 This ruby library provides a wrapper around [glfw][].  Unlike similar interfaces, this library uses Ruby/DL dynamic loading, thus avoid the need for compilation.
